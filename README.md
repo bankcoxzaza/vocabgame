@@ -1,10 +1,6 @@
 # vocabgame
 การติดตั้งแอป Vocab Game
 
- 
-
-
-
 1. Install
 ต้องทำการติดตั้ง Node.js ก่อน
 จากนั้นติดตั้ง cordova ใช้คำสั่ง npm install -g cordova
