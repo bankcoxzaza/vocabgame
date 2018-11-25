@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>   
+        <title>score</title>
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+
+        <script type="text/javascript">
+            function show(){
+              window.location="index.html";
+            }
+        </script>
+    </head>
+    
+    <body class="body body-score" onload="getScore(),getshScoreinco()">
+        
+      <div class="clear"/>
+        <a href="rating.html"><img class="btncounsel" src="../www/img/user.png"></a>
+        <a href="index.html"><img class="btnhome" src="../www/img/home.png" onclick="clrscore(),clrinco()"></a>
+
+      <div class="clear"/>
+        <div id="shScore" align="center"></div>
+        
+      <div class="clear"/>
+        <div id="shScorein" align="center"></div>
+
+      <script type="text/javascript" src="cordova.js"></script>
+      <script type="text/javascript" src="js/index.js"></script> 
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    </body>
+</html>
